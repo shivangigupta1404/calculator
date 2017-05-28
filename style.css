@@ -1,0 +1,57 @@
+			#calci{
+				background-color:#9B8F89;
+				width:250px;
+				height:auto;
+				display:block;
+				margin:0 auto;
+				border-radius: 10px;
+			}
+			#screen{
+				width:220px;
+				margin:0 auto;
+				height:40px;
+				border:1px solid blue;
+				display:block;
+				border-radius:4px;
+				background: #C7C7B0;
+				text-align:right;
+			}
+			#upper-panel{
+				padding:4px;
+				padding-top:20px;
+				margin-top:20px;
+			}
+			#brand{
+				text-align:center;
+				font-weight: bold;
+			}
+			#lower-panel{
+				width:220px;
+				margin:0 auto;
+				padding-bottom:20px;
+			}
+			#row{
+				width:220px;
+				margin:0 auto;
+			}
+
+			.button{
+				width:40px;
+				background: #332f3b;
+				color:#fff;
+				margin:5px;
+				border:1px solid blue;
+				border-radius:4px;
+				display:inline-block;
+				text-align:center;
+				font-weight:bold;
+				cursor: pointer;
+				padding-top: 2px;
+			}
+			.button:hover {background-color:#000;}
+
+			.button:active {
+			  background-color:#000;
+			  box-shadow: 0 5px #666;
+			  transform: translateY(3px);
+			}
